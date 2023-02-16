@@ -173,7 +173,7 @@ const App = () => {
             feedback!!!.
           </p>
           <span>P.S </span>You will need to send a Feedback, in order to see
-          other peoples' Feedback, after connecting your WALLET.
+          other peoples' Feedback, after connecting your WALLET by the way.
         </div>
         <input
           className="feedbackInput"
