@@ -1,0 +1,90 @@
+body {
+  background-color: #8d99ae;
+  width: 100vw;
+}
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  margin-top: 64px;
+  background-color: #2b2d42;
+  padding: 5rem 0;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+}
+
+.intro {
+  text-align: center;
+  margin-top: 16px;
+  color: #ffd166;
+  font-size: 1.1rem;
+}
+span{
+  color: white;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.btn {
+  cursor: pointer;
+  margin-top: 1rem;
+  padding: 10px;
+  border: 0;
+  border-radius: 5px;
+  width: 15rem;
+  background-color: #8d99ae;
+  color: white;
+}
+.btn:hover {
+  background-color: #ffd166;
+  color: black;
+  transition-duration: 1s;
+}
+.feedbackInput {
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  width: 20rem;
+}
+.feedbackInput::placeholder {
+  text-align: center;
+}
+.feedbackInput:focus {
+  outline-color: #8d99ae;
+}
+.feedbackInput:focus::placeholder {
+  color: white;
+}
+.feedbackdiv {
+  background-color: OldLace;
+  margin-top: 16px;
+  padding: 8px;
+}
+.address {
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+.time {
+  font-size: 0.9rem;
+  margin-top: 5px;
+  font-weight: bold;
+}
+.message {
+  margin-top: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+}
